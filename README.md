@@ -35,14 +35,22 @@ ______
 ______
 
 ## 📁 Project Structure
-/Dataset → [Raw](...)|Cleaned datasets:[String](...)/[Numeric](...) 
+/Dataset → [Raw](...) & Cleaned datasets:[String](...)/[Numeric](...) 
+
 |
+
 /Syntax → [STATA](...)|[SPSS](...) 
+
 |
+
 /Output → [STATA](...)|[SPSS](...)
+
 |
-/Visuals → [Single](...) & [Cluster-Barcharts](...) 
+
+/Visuals → Single-Barcharts: [Age](https://github.com/Gafar-olajide/Determinants-of-Multiple-Sexual-Partnership-among-Undergraduate-Students-OAU-/blob/main/Age-group%20of%20respondents.png) & Cluster-Barcharts: 
+
 |
+
 /Report → [D-MSP](https://github.com/Gafar-olajide/Determinants-of-Multiple-Sexual-Partnership-among-Undergraduate-Students-OAU-/blob/main/School%20Project%20(DMPS)%202021-2022.pdf)
 
 
