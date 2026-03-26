@@ -58,7 +58,11 @@ PROJECT-NAME/
 │
 │── README.md
 
-
+data/raw/dataset.csv
+syntax/spss/analysis.sps
+outputs/results.xlsx
+reports/final_report.pdf
+visuals/chart.png
 
 ______
 
