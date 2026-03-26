@@ -42,6 +42,24 @@ ______
 /Report → Project report
 
 - [REPORT](https://github.com/Gafar-olajide/Determinants-of-Multiple-Sexual-Partnership-among-Undergraduate-Students-OAU-/blob/main/School%20Project%20(DMPS)%202021-2022.pdf)
+
+PROJECT-NAME/
+│── DATASET/
+│   ├── raw/
+│   └── cleaned/
+│
+│── SYNTAX/
+│   ├── spss/
+│   └── stata/
+│
+│── OUTPUTS/
+│
+│── REPORTS/ [REPORT](https://github.com/Gafar-olajide/Determinants-of-Multiple-Sexual-Partnership-among-Undergraduate-Students-OAU-/blob/main/School%20Project%20(DMPS)%202021-2022.pdf)
+│
+│── README.md
+
+
+
 ______
 
 📌 Conclusion:
