@@ -35,13 +35,17 @@ ______
 ______
 
 ## 📁 Project Structure
-/Dataset → Raw & Cleaned datasets
-/Syntax → STATA/SPSS syntax
-/Output → STATA log & SPSS outputs
-/Visuals → Single & Cluster barcharts
-/Report → Project report
+/Dataset → [Raw](...)|Cleaned datasets:[String](...)/[Numeric](...) 
+|
+/Syntax → [STATA](...)|[SPSS](...) 
+|
+/Output → [STATA](...)|[SPSS](...)
+|
+/Visuals → [Single](...) & [Cluster-Barcharts](...) 
+|
+/Report → [D-MSP](https://github.com/Gafar-olajide/Determinants-of-Multiple-Sexual-Partnership-among-Undergraduate-Students-OAU-/blob/main/School%20Project%20(DMPS)%202021-2022.pdf)
 
-- [REPORT](https://github.com/Gafar-olajide/Determinants-of-Multiple-Sexual-Partnership-among-Undergraduate-Students-OAU-/blob/main/School%20Project%20(DMPS)%202021-2022.pdf)
+
 
 PROJECT-NAME/
 │── DATASET/
@@ -57,6 +61,7 @@ PROJECT-NAME/
 │── REPORTS/ [REPORT](https://github.com/Gafar-olajide/Determinants-of-Multiple-Sexual-Partnership-among-Undergraduate-Students-OAU-/blob/main/School%20Project%20(DMPS)%202021-2022.pdf)
 │
 │── README.md
+
 
 data/raw/dataset.csv
 syntax/spss/analysis.sps
