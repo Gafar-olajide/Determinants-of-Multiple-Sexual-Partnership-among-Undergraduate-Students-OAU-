@@ -1,0 +1,50 @@
+
+DATASET ACTIVATE D_MSP DATASET CLEANING ON SPSS.
+FREQUENCIES VARIABLES=Gender Religion Attachment_religion Living_arrangement Living_with 
+    Reason_for_living Marital_status Undergraduate_MSP Financial_income How_frequent Source_of_income 
+    Transactional_sex Friends_engagement_in_MSP MSP_in_school Had_sexual_intercourse Who_was_the_person 
+    How_many_partners agegroup agecat_of_sexual_intercourse msp_kpi
+  /ORDER=ANALYSIS.
+
+
+FREQUENCIES VARIABLES=Gender Religion Attachment_religion Living_arrangement Living_with 
+    Reason_for_living Marital_status Undergraduate_MSP Financial_income How_frequent Source_of_income 
+    Transactional_sex Friends_engagement_in_MSP MSP_in_school Had_sexual_intercourse agegroup msp_kpi
+  /FORMAT=NOTABLE
+  /BARCHART FREQ
+  /ORDER=ANALYSIS.
+
+
+FREQUENCIES VARIABLES=Who_was_the_person How_many_partners agecat_of_sexual_intercourse
+  /FORMAT=NOTABLE
+  /PIECHART PERCENT
+  /ORDER=ANALYSIS.
+
+
+FREQUENCIES VARIABLES=Age Age_at_sexual_debut
+  /FORMAT=NOTABLE
+  /NTILES=4
+  /NTILES=10
+  /STATISTICS=STDDEV VARIANCE RANGE MINIMUM MAXIMUM SEMEAN MEAN MEDIAN MODE SUM SKEWNESS SESKEW 
+    KURTOSIS SEKURT
+  /GROUPED=Age Age_at_sexual_debut
+  /HISTOGRAM NORMAL
+  /ORDER=ANALYSIS.
+
+
+CROSSTABS
+  /TABLES=Gender agecat_of_sexual_intercourse Religion Living_arrangement Marital_status 
+    Financial_income BY msp_kpi
+  /FORMAT=AVALUE TABLES
+  /STATISTICS=CHISQ 
+  /CELLS=COUNT
+  /COUNT ROUND CELL
+  /BARCHART.
+
+
+* Export Output.
+OUTPUT EXPORT
+  /CONTENTS  EXPORT=ALL  LAYERS=PRINTSETTING  MODELVIEWS=PRINTSETTING
+  /PDF  DOCUMENTFILE='C:\Users\HP\Documents\DATA ANALYSIS\SPSS\MY PROJECT\OUTPUT.pdf'
+     EMBEDBOOKMARKS=YES  EMBEDFONTS=YES.
+
