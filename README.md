@@ -35,19 +35,20 @@ ______
 ______
 
 ## 📁 Project Structure
-/*Dataset* → [Raw](...) & Cleaned datasets:[String](...)/[Numeric](...) 
+/**Dataset** →  *Raw-data:* [Raw](https://github.com/Gafar-olajide/Determinants-of-Multiple-Sexual-Partnership-among-Undergraduate-Students-OAU-/blob/main/D-MSP%20RAW_DATASET%20from%20Google%20form.csv)
+                *Cleaned-data:* [String](https://github.com/Gafar-olajide/Determinants-of-Multiple-Sexual-Partnership-among-Undergraduate-Students-OAU-/blob/main/D_MSP%20DATASET%20CLEANING%20ON%20EXCEL%20(String-%20Variables).csv) | [Numeric](https://github.com/Gafar-olajide/Determinants-of-Multiple-Sexual-Partnership-among-Undergraduate-Students-OAU-/blob/main/D_MSP%20DATASET%20CLEANING%20ON%20EXCEL%20(Numeric-%20Variables).csv) 
 
 
-/*Syntax* → [STATA](...)|[SPSS](...) 
+/**Syntax** → [STATA](...)|[SPSS](...) 
 
 
-/*Output* → [STATA](...)|[SPSS](...)
+/**Output** → [STATA](...)|[SPSS](...)
 
 
-/*Visuals* → Single-Barcharts: [Age-group](https://github.com/Gafar-olajide/Determinants-of-Multiple-Sexual-Partnership-among-Undergraduate-Students-OAU-/blob/main/Age-group%20of%20respondents.png) | [Ever had sexual intercourse](https://github.com/Gafar-olajide/Determinants-of-Multiple-Sexual-Partnership-among-Undergraduate-Students-OAU-/blob/main/Ever%20had%20sexual%20intercourse.png) | [Multiple sexual partners in the last 12-months](https://github.com/Gafar-olajide/Determinants-of-Multiple-Sexual-Partnership-among-Undergraduate-Students-OAU-/blob/main/Multiple%20sexual%20partners%20in%20the%20last%2012-months.png) & Cluster-Barcharts: [Living arrangement](https://github.com/Gafar-olajide/Determinants-of-Multiple-Sexual-Partnership-among-Undergraduate-Students-OAU-/blob/main/Living%20arrangement.png) | [Agecategory of sexual intercourse](https://github.com/Gafar-olajide/Determinants-of-Multiple-Sexual-Partnership-among-Undergraduate-Students-OAU-/blob/main/Agecategory%20of%20sexual%20intercourse.png)
+/**Visuals** → Single-Barcharts: [Age-group](https://github.com/Gafar-olajide/Determinants-of-Multiple-Sexual-Partnership-among-Undergraduate-Students-OAU-/blob/main/Age-group%20of%20respondents.png) | [Ever had sexual intercourse](https://github.com/Gafar-olajide/Determinants-of-Multiple-Sexual-Partnership-among-Undergraduate-Students-OAU-/blob/main/Ever%20had%20sexual%20intercourse.png) | [Multiple sexual partners in the last 12-months](https://github.com/Gafar-olajide/Determinants-of-Multiple-Sexual-Partnership-among-Undergraduate-Students-OAU-/blob/main/Multiple%20sexual%20partners%20in%20the%20last%2012-months.png) & Cluster-Barcharts: [Living arrangement](https://github.com/Gafar-olajide/Determinants-of-Multiple-Sexual-Partnership-among-Undergraduate-Students-OAU-/blob/main/Living%20arrangement.png) | [Agecategory of sexual intercourse](https://github.com/Gafar-olajide/Determinants-of-Multiple-Sexual-Partnership-among-Undergraduate-Students-OAU-/blob/main/Agecategory%20of%20sexual%20intercourse.png)
 
 
-/*Report* → [D-MSP](https://github.com/Gafar-olajide/Determinants-of-Multiple-Sexual-Partnership-among-Undergraduate-Students-OAU-/blob/main/School%20Project%20(DMPS)%202021-2022.pdf)
+/**Report** → [D-MSP](https://github.com/Gafar-olajide/Determinants-of-Multiple-Sexual-Partnership-among-Undergraduate-Students-OAU-/blob/main/School%20Project%20(DMPS)%202021-2022.pdf)
 
 
 
